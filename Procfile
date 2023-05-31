@@ -1,1 +1,1 @@
-web: gunicorn hashflix.wsgi --log-file -
+web: gunicorn backend.django_app.hashflix.wsgi --log-file -
